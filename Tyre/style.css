@@ -1,0 +1,366 @@
+ /* Custom styling */
+ /* Navbar Customization */
+.navbar {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 10px 20px; /* Padding for spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px; /* Larger font for the brand */
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    color: #343a40; /* Dark color for links */
+    margin-right: 20px; /* Spacing between links */
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Blue color on hover */
+}
+
+.btn-login-signup {
+    background-color: #007bff; /* Blue background for button */
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-login-signup:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px; /* Spacing between items on smaller screens */
+    }
+
+    .btn-login-signup {
+        width: 100%; /* Full-width button on smaller screens */
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+/* part 1.0 */
+
+
+/* main background image */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.carousel {
+    height: 500px;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+             
+
+
+/* part 3 */
+
+/* General Section Styling */
+.popular-brands {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Brand List Styling */
+  .brand-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Brand Item Styling */
+  .brand-item {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .brand-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .brand-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  
+  /* part 3.1 */
+
+  /* Tyre Selection Styling */
+.tyre-selection {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  .tyre-item {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tyre-item:hover {
+    background-color: #0056b3;
+  }
+
+  
+  /* Part 4 */
+
+  /* Section Styling */
+.tyre-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .tyre-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Slider Styling */
+  .tyre-slider {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slides-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .slide img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .slide p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .prev-slide,
+  .next-slide {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  .prev-slide {
+    left: 10px;
+  }
+  
+  .next-slide {
+    right: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .slide p {
+      font-size: 16px;
+    }
+  
+    .prev-slide,
+    .next-slide {
+      padding: 8px;
+    }
+  }
+
+  
+  /* part 5 */
+  /* Styling for the tyre pressure section */
+.tyre-pressure-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.tyre-pressure-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* part 6 */
+
+.search-tyre-dealer-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.city-box {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.city-box:hover {
+    background-color: #e9ecef;
+    cursor: pointer;
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+.btn-primary {
+    border-radius: 20px;
+}
+
+
+/* part 7 */
+
+.question-section {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.question-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.question-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.btn-primary {
+    border-radius: 20px;
+}
+
+
+/* part 8 */
+
+.recent-questions {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.recent-questions h2 {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+}
+
+.accordion-button {
+    border-radius: 0.25rem;
+}
+
+.accordion-body {
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+    padding: 15px;
+}
+
+
+/* part 9 */
+
+.tyre-care {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.tyre-care h2 {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+}
+
+.tyre-care .details {
+    padding-left: 15px;
+}
+
+.tyre-care .details p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.tyre-care .details .date {
+    font-style: italic;
+    color: #6c757d;
+}
